@@ -1,44 +1,24 @@
-# Box Vagrant usada no curso de Rails 5.x
+# README
 
-Para usar essa box você precisa instalar o:
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-- VirtualBox (https://www.virtualbox.org/)
-- Vagrant (https://www.vagrantup.com/)
-- Git for Windows (somente para usuários Windows - https://gitforwindows.org/)
+Things you may want to cover:
 
-## Após a instalação dos itens acima, siga os passos abaixo, usando um terminal.
+* Ruby version
 
-1- Instale o plugin do vagrant
-```
-vagrant plugin install vagrant-vbguest
-```
+* System dependencies
 
-2- Clone esse repositório e entre na pasta
-```
-git clone https://github.com/jacksonpires/curso-rails
-cd curso-rails
-```
+* Configuration
 
-3- Inicie a box
-```
-vagrant up
-```
+* Database creation
 
-4- Acesse o Cloud9 em **http://localhost:8181**  ou use o **vagrant ssh** para acessar a box via ssh.
+* Database initialization
 
-## Dicas de comandos para gerir sua box
+* How to run the test suite
 
-- Para pausar a box
-```
-vagrant suspend
-```
+* Services (job queues, cache servers, search engines, etc.)
 
-- Para iniciar/levantar a box
-```
-vagrant up
-```
+* Deployment instructions
 
-- Para parar a box
-```
-vagrant halt
-```
+* ...
